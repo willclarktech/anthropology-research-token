@@ -10,6 +10,7 @@
 	"author": "willclarktech <willclarktech@users.noreply.github.com>",
 	"main": "index.js",
 	"scripts": {
+		"format": "prettier --write .",
 		"dev": "ganache-cli --deterministic",
 		"compile": "truffle compile",
 		"flatten": "truffle-flattener contracts/AnthropologyResearchToken.sol > ./build/AnthropologyResearchTokenFlattened.sol",
