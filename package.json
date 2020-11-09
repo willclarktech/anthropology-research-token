@@ -10,6 +10,7 @@
 	"author": "willclarktech <willclarktech@users.noreply.github.com>",
 	"main": "index.js",
 	"scripts": {
+		"dev": "ganache-cli --deterministic",
 		"compile": "truffle compile",
 		"flatten": "truffle-flattener contracts/AnthropologyResearchToken.sol > ./build/AnthropologyResearchTokenFlattened.sol",
 		"migrate:dev": "truffle migrate --network development",
