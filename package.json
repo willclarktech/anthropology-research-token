@@ -11,8 +11,10 @@
 	"main": "index.js",
 	"scripts": {
 		"compile": "truffle compile",
-		"migrate": "truffle migrate --network development",
-		"console": "truffle console --network development",
+		"migrate:dev": "truffle migrate --network development",
+		"migrate:test": "truffle migrate --network rinkeby",
+		"console:dev": "truffle console --network development",
+		"console:test": "truffle console --network rinkeby",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
