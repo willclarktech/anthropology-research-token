@@ -11,6 +11,7 @@
 	"main": "index.js",
 	"scripts": {
 		"compile": "truffle compile",
+		"flatten": "truffle-flattener contracts/AnthropologyResearchToken.sol > ./build/AnthropologyResearchTokenFlattened.sol",
 		"migrate:dev": "truffle migrate --network development",
 		"migrate:test": "truffle migrate --network rinkeby",
 		"console:dev": "truffle console --network development",
