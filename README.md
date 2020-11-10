@@ -20,7 +20,7 @@ To create a single flattened file (e.g. for source code verification on EtherSca
 npm run flatten
 ```
 
-Note that (for now) you will need to manually reconcile the `SPDX-License-Identifier` comments in the flattened source code.
+Note that (for now) you will need to manually reconcile the `SPDX-License-Identifier` comments in the flattened source code. This is also your opportunity to add your own arbitrary comments at the top of the flattened file for posterity.
 
 ## Networks
 
