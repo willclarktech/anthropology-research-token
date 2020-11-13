@@ -1,5 +1,11 @@
 # Anthropology Research Token
 
+This is an anthropology research token created to think through how cryptocurrencies and money work. If by magic, money is raised through this token, it will be put into anthropological research on money, a research that pays close attention to the social and the cultural.
+
+If you do receive it, it probably means I’m thankful for something you have done.
+
+The contract was deployed to the Ethereum Mainnet at [`0xfA8DA90BF7Cb5D1dBA8F22f6972CBef2f828cb97`](https://etherscan.io/address/0xfA8DA90BF7Cb5D1dBA8F22f6972CBef2f828cb97) on 13/11/2020. Details about the token can be viewed on Etherscan: https://etherscan.io/token/0xfA8DA90BF7Cb5D1dBA8F22f6972CBef2f828cb97
+
 ## Installation
 
 ```sh
@@ -66,3 +72,7 @@ npm run console:test
 ```
 
 You can of course use whichever testnet and service provider you choose. Just update `truffle-config.js` and the `console:test`/`migrate:test` npm scripts accordingly.
+
+### Mainnet
+
+There is a truffle configuration for deploying to the Ethereum Mainnet in a similar fashion to deploying to Rinkeby. However, the contract was actually deployed via [Remix](https://remix.ethereum.org/) using the flattened contract which can be found in `./deployment/AnthropologyResearchToken.sol`.
